@@ -8,24 +8,26 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
         .blob{
-            width: 750px;
+            width: 110%;
             margin-top: -16px;
         }
         .welcome{
-            position: relative;
+            position: absolute;
             color: white;
-            top: -420px;
+            top: 30%;
             left: 170px;
             font-size: 50px;
             font-weight: 900;
+            font-family: 'Staatliches', cursive;
         }
         .welcomeblob{
             margin: 0 0 0 -2px;
-            /* background-color: black; */
-            width: 90%;
+            width: 50%;
         }
-        .hey{
-            margin-top: 200px;
+        .home_page_logo{
+            position: absolute;
+            top: 200px;
+            left: 65%;
         }
     </style>
 </head>
@@ -35,7 +37,9 @@
         <img class="blob" src="imgs/blob.png">
         <div class="welcome">Welcome to FridgyGo</div>
     </div>
-    <div class="hey"></div>
+    <div class="home_page_logo">
+        <img src="imgs/vertical_logo.png" alt="final logo of FridgyGo">
+    </div>
     <?php include 'footer.php';?>
 </body>
 </html>

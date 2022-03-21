@@ -14,6 +14,7 @@
             margin-top: 0px;
             padding-bottom: 15px;
             background-color: rgb(204, 136, 81);
+            font-family: 'Staatliches', cursive;
         }
     
         .line{
@@ -28,13 +29,13 @@
         }
 
         .copy_right {
-            font-size: 18px;
+            font-size: 20px;
             color: white;
         }
 
         .team1{
             font-weight: 500;
-            font-size: 18px; 
+            font-size: 20px; 
             color: white;
         }
 </style>

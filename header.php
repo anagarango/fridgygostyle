@@ -9,21 +9,23 @@
         @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
         html{
             background-color: rgb(253, 241, 227);
-            font-family: 'Staatliches', cursive;
+            background-color: #f7e6df
         }
         body{
             margin: -10px 0 0 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .header{
             display: flex;
             position: fixed;
             margin-top: -5px;
-            background-color: rgb(204, 136, 81);
+            background-color: white;
             height: 105px;
             width: 100vw;
             justify-content: center;
             align-items: center;
             z-index: 1;
+            font-family: 'Staatliches', cursive;
         }
         .header > a {
             display: flex;
@@ -33,7 +35,7 @@
             width: 120px;
             height: 95px;
             font-size: 22px;
-            color: white;
+            color: #119962;
             text-decoration: none;
             font-weight: 600;
         }
@@ -46,10 +48,10 @@
         }
         .logo {
             width: 100px;
-            margin-top:25px;
+            margin-top:35px;
             height: 100%;
-            background-image: url("imgs/fridge.png");
-            background-size: 83%;
+            background-image: url("imgs/final_logo.png");
+            background-size: 50%;
             background-repeat: no-repeat;
 
         }

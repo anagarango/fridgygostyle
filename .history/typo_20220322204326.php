@@ -174,7 +174,7 @@
         <span class = "bold-ubuntu-two">Ubuntu Bold 16px</span>
         <span class = "regular-ubuntu-three">Ubuntu Bold 16px</span>
     </div>
-    <div class = "descript"><hr>Ubuntu is a modern humanist-style font which looks strict, but at the same time not too  formal. We will only use one font for the whole project, as it's suitable for both: headings and general text.<hr></div>
+    <div class = "descript">_<hr>Ubuntu is a modern humanist-style font which looks strict, but at the same time not too  formal. We will only use one font for the whole project, as it's suitable for both: headings and general text.<hr></div>
     <div class = "coolors">Text Colors<hr></div>
     <div class = "colors">
         <div class = "brown"><div class = "textinbox">Primary Typeface <br> Hex: #FFFFFF <br> RGB: 255 255 255</div></div>

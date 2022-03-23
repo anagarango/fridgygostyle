@@ -35,8 +35,8 @@
         .coolors{
             font-family: 'Ubuntu', sans-serif;
             position: absolute;
-            top: 96%;
-            left: 600px;
+            top: 83%;
+            left: 150px;
             font-size: 26px;
         }
 
@@ -94,53 +94,34 @@
             height: 120px;
             background-color: #FFFFFF;
             margin: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         .white{
             width: 200px;
             height: 120px;
             background-color: #723800;
             margin: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         .darkbrown{
             width: 200px;
             height: 120px;
             background-color: #5B3713;
             margin: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         div.colors{
             display: flex;
             flex-direction: row;
             /* justify-content: center; */
             position: absolute;
-            top: 100%;
+            top: 85%;
             left: 200px;
         }
         .textinbox{
-            font-family: 'Ubuntu', sans-serif;
             font-weight: normal;
-            font-size: 19px;
-        }
-        .descript{
-            font-family: 'Ubuntu', sans-serif;
-            font-weight: normal;
-            font-size: 18px;
-            position: absolute;
-            top: 80%;
-            left: 140px;
-            width: 70%;
+            font-size: 24px;
         }
 
         .blob{
-            margin: 0 0 300px -2px;
+            margin: 0 0 100px -2px;
             width: 60%;
         }
         /* img.typo{
@@ -174,12 +155,11 @@
         <span class = "bold-ubuntu-two">Ubuntu Bold 16px</span>
         <span class = "regular-ubuntu-three">Ubuntu Bold 16px</span>
     </div>
-    <div class = "descript"><hr>Ubuntu is a modern humanist-style font which looks strict, but at the same time not too  formal. We will only use one font for the whole project, as it's suitable for both: headings and general text.<hr></div>
     <div class = "coolors">Text Colors<hr></div>
     <div class = "colors">
         <div class = "brown"><div class = "textinbox">Primary Typeface <br> Hex: #FFFFFF <br> RGB: 255 255 255</div></div>
-        <div class = "white"><div class = "textinbox">Secondary Typeface <br> Hex: #723800 <br> RGB: 114 56 0</div></div>
-        <div class = "darkbrown"><div class = "textinbox">Headings Typeface <br> Hex: #5B3713 <br> RGB: 91 55 19</div></div>
+        <div class = "white"></div>
+        <div class = "darkbrown"></div>
     </div>
 
     <?php include 'footer.php';?>

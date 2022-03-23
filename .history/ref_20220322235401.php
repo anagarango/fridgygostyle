@@ -9,22 +9,18 @@
         body{
         }
         .logo_inspirations{
-            /* padding: 10% 5%;
-            height: fit-content */
-        }
-        .icon_reference, .icon_reference{
-            height: fit-content
-        }
-        .ref{
-            /* padding-left: 50px; */
             padding: 10% 5%;
             height: fit-content
+        }
+        .icon_reference, .icon_reference{
+            padding: -60px;
+            height: fit-content
+            
         }
     </style>
 </head>
 <body>
     <?php include 'header.php';?>
-    <div class= "ref">
     <div class="logo_inspirations">
         <h2>Logo Inspirations</h2>
         <p><a href="https://pin.it/6H2LVfK">Pinterest Fruit Logo</a></p>
@@ -37,7 +33,6 @@
     <p><a href= "https://www.vectorstock.com/royalty-free-vector/fruits-flat-icons-vector-7377635">Icon Image Reference 1</a></p>
     <p><a href= "https://www.dreamstime.com/stock-illustration-fruit-healthy-food-set-nature-color-icon-style-colorful-flat-icons-graphics-vector-illustration-ready-to-use-image77183996">Icon Image Reference 2</a></p>
     <p><a href= "https://www.vectorstock.com/royalty-free-vector/food-colored-icons-11-vector-8408545 ">Icon Image Reference 3</a></p>  
-    </div>
     </div>
     <?php include 'footer.php';?>
 </body>

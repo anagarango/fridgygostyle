@@ -62,7 +62,6 @@
         <a class="logo" href="index.php"></a>
         <a class="hover" href="index.php">Home</a>
         <a class="hover" href="logo.php">Logo</a>
-        <a class="hover" href="imagery.php">Imagery</a>
         <a class="hover" href="colour.php">Colour</a>
         <a class="hover" href="typo.php">Typography</a>
         <a class="hover" href="ref.php">Reference</a>

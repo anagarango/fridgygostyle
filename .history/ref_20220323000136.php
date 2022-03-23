@@ -9,16 +9,14 @@
         body{
         }
         .logo_inspirations{
-            /* padding: 10% 5%;
-            height: fit-content */
+            padding: 10% 5%;
+            height: fit-content
         }
         .icon_reference, .icon_reference{
             height: fit-content
         }
         .ref{
-            /* padding-left: 50px; */
-            padding: 10% 5%;
-            height: fit-content
+            padding-left: 50px;
         }
     </style>
 </head>

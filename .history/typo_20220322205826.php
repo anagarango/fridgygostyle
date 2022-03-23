@@ -29,14 +29,14 @@
             font-family: 'Ubuntu', sans-serif;
             position: absolute;
             top: 20%;
-            left: 56%;
+            left: 50%;
             font-size: 26px;
         }
         .coolors{
             font-family: 'Ubuntu', sans-serif;
             position: absolute;
             top: 96%;
-            left: 41%;
+            left: 50%;
             font-size: 26px;
         }
 

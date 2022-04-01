@@ -22,21 +22,21 @@
             font-family: 'Ubuntu', sans-serif;
             position: absolute;
             top: 20%;
-            left: 10%;
+            left: 150px;
             font-size: 26px;
         }
         .fontsizes{
             font-family: 'Ubuntu', sans-serif;
             position: absolute;
             top: 20%;
-            left: 56%;
+            left: 800px;
             font-size: 26px;
         }
         .coolors{
             font-family: 'Ubuntu', sans-serif;
             position: absolute;
-            top: 96%;
-            left: 41%;
+            top: 83%;
+            left: 600px;
             font-size: 26px;
         }
 
@@ -121,22 +121,13 @@
             flex-direction: row;
             /* justify-content: center; */
             position: absolute;
-            top: 100%;
+            top: 85%;
             left: 200px;
         }
         .textinbox{
             font-family: 'Ubuntu', sans-serif;
             font-weight: normal;
             font-size: 19px;
-        }
-        .descript{
-            font-family: 'Ubuntu', sans-serif;
-            font-weight: normal;
-            font-size: 18px;
-            position: absolute;
-            top: 80%;
-            left: 140px;
-            width: 70%;
         }
 
         .blob{
@@ -174,7 +165,6 @@
         <span class = "bold-ubuntu-two">Ubuntu Bold 16px</span>
         <span class = "regular-ubuntu-three">Ubuntu Bold 16px</span>
     </div>
-    <div class = "descript"><hr>Ubuntu is a modern humanist-style font which looks strict, but at the same time not too  formal. We will only use one font for the whole project, as it's suitable for both: headings and general text.<hr></div>
     <div class = "coolors">Text Colors<hr></div>
     <div class = "colors">
         <div class = "brown"><div class = "textinbox">Primary Typeface <br> Hex: #FFFFFF <br> RGB: 255 255 255</div></div>

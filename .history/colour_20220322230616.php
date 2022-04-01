@@ -42,7 +42,7 @@
     <?php include 'header.php';?>
     <div class="text">Color Palette</div>
      <img class="typo" src="imgs/Screen Shot 2022-03-22 at 10.38.47 PM.png">
-     <div class = "descript">For this project we picked several shades of <strong>orange</strong> and one <strong>green.</strong><br>
+     <div class = "descript">We used several shades of <strong>orange</strong> and one <strong>green.</strong><br>
 Orange is associated with meanings of joy, engagement, warmth, and heat. By using this color we’re trying to convey that everybody deserves <strong>warmth</strong> and a <strong>feeling of safety</strong>, and how simple little donation can bring <strong>joy</strong> and <strong>happiness</strong>.<br>
 Our choice of green is a very <strong>calm</strong> green, which means <strong>safety</strong>, life, and is a very common choice among charity organizations. </div>
     <img class="blob" src="imgs/blob.png">

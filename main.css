@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+html{
+    background-color: rgb(253, 241, 227);
+}
+body{
+    margin: -10px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    position: fixed;
+    margin-top: -5px;
+    background-color: white;
+    height: 105px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-family: 'Staatliches', cursive;
+}
+.header > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+    width: 120px;
+    height: 95px;
+    font-size: 22px;
+    color: #119962;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header > .hover:hover {
+    font-size: 26px;
+    background-color: #efc2a3;
+    color: rgb(163, 98, 45);
+    transition: 0.4s;
+    font-weight: 800;
+}
+.logo {
+    width: 100px;
+    margin-top:35px;
+    height: 100%;
+    background-image: url("../imgs/final_logo.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+.blob{
+    width: 610px;
+    margin-top: -16px;
+}
+.welcome{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 110px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Staatliches', cursive;
+}
+.welcomeblob{
+    margin: 0 0 0 -2px;
+    width: 50%;
+}
+.home_page_logo{
+    position: absolute;
+    top: 100px;
+    left: 65%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    background-color: rgb(204, 136, 81);
+    font-family: 'Staatliches', cursive;
+}
+
+.line{
+    width: 100%;
+    border-top: 15px dotted #efc2a3;
+    margin-top: -15px;
+}
+
+.brand_name{
+    font-size: 22px;
+    color: white;
+}
+
+.copy_right {
+    font-size: 20px;
+    color: white;
+}
+
+.team1{
+    font-weight: 500;
+    font-size: 20px; 
+    color: white;
+}
+
+.logo_images img{
+    width: 55%;
+}
+.logo_images div{
+    margin-top: 80px;
+}
+.logo_information{
+    padding: 10% 5%;
+    width: 86vw;
+    height: fit-content;
+}
+.blobback{
+    margin: 0 0 10px -2px;
+    width: 55%;
+}
+img.typo{
+    width: 80%;
+    position: absolute;
+    top: 33%;
+    left: 12%;
+}
+.text{
+    width: 600px;
+    position: absolute;
+    left:10%;
+    top: 20%;
+}
+.descript{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 12%;
+    width: 70%;
+    line-height: 34px;
+}
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        .font{
+            font-family: 'Ubuntu', sans-serif;
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            display: flex;
+            flex-direction: column;
+        }
+        span {
+            line-height: 70px;
+        }
+        .typeface{
+            font-family: 'Ubuntu', sans-serif;
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            font-size: 26px;
+        }
+        .fontsizes{
+            font-family: 'Ubuntu', sans-serif;
+            position: absolute;
+            top: 20%;
+            left: 56%;
+            font-size: 26px;
+        }
+        .coolors{
+            font-family: 'Ubuntu', sans-serif;
+            position: absolute;
+            top: 96%;
+            left: 41%;
+            font-size: 26px;
+        }
+
+        .bold{
+            font-weight: bold;
+            font-size: 36px;
+        }
+        .regular{
+            font-weight: normal;
+            font-size: 36px;
+        }
+        .regular-small{
+            font-weight: normal;
+            font-size: 24px;
+        }
+        .bold-small{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .regular-smaller{
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+        .size{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Ubuntu', sans-serif;
+            position: absolute;
+            top: 30%;
+            left: 55%;
+        }
+        .bold-ubuntu{
+            font-weight: bold;
+            font-size: 36px;
+        }
+        .regular-ubuntu-one{
+            font-weight: normal;
+            font-size: 36px;
+        }
+        .regular-ubuntu-two{
+            font-weight: normal;
+            font-size: 24px;
+        }
+        .bold-ubuntu-two{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .regular-ubuntu-three{
+            font-weight: normal;
+            font-size: 16px;
+        }
+        .brown{
+            width: 200px;
+            height: 120px;
+            background-color: #FFFFFF;
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .white{
+            width: 200px;
+            height: 120px;
+            background-color: #723800;
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .darkbrown{
+            width: 200px;
+            height: 120px;
+            background-color: #5B3713;
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div.colors{
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            position: absolute;
+            top: 100%;
+            left: 200px;
+        }
+        .textinbox{
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: normal;
+            font-size: 19px;
+        }
+        .textinboxwhite{
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: normal;
+            font-size: 19px;
+            color: white;
+        }
+        .descript{
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: normal;
+            font-size: 18px;
+            position: absolute;
+            top: 80%;
+            left: 140px;
+            width: 70%;
+        }
+        .footertypo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 400px;
+            padding-bottom: 15px;
+            background-color: rgb(204, 136, 81);
+            font-family: 'Staatliches', cursive;
+        }
+        .footercolor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 150px;
+            padding-bottom: 15px;
+            background-color: rgb(204, 136, 81);
+            font-family: 'Staatliches', cursive;
+        }
+        .logo_inspirations{
+            padding: 10% 5%;
+            height: fit-content
+        }

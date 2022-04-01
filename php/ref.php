@@ -8,10 +8,7 @@
     <style>
         body{
         }
-        .logo_inspirations{
-            padding: 10% 5%;
-            height: fit-content
-        }
+       
     </style>
 </head>
 <body>

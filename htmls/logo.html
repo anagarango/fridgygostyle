@@ -5,92 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        html{
-            background-color: rgb(253, 241, 227);
-        }
-        body{
-            margin: -10px 0 0 0;
-        }
-        .header{
-            display: flex;
-            position: fixed;
-            margin-top: -5px;
-            background-color: rgb(204, 136, 81);
-            height: 105px;
-            width: 100vw;
-            font-family: Arial, Helvetica, sans-serif;
-            justify-content: center;
-            align-items: center;
-            z-index: 1;
-        }
-        .header > a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 120px;
-            height: 100%;
-            font-size: 18px;
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .header > .hover:hover {
-            font-size: 20px;
-            background-color: #efc2a3;
-            color: rgb(163, 98, 45);
-            transition: 0.3s;
-            font-weight: 800;
-        }
-        .logo {
-            width: 100px;
-            height: 100%;
-            background-color: rgb(0, 174, 255);
-        }
-        /* .blob{
-            width: 650px;
-            margin-top: -16px;
-        }
-        .welcome{
-            position: relative;
-            color: white;
-            top: -400px;
-            left: 150px;
-            font-size: 30px;
-            font-weight: 900;
-        }
-        .welcomeblob{
-            margin: 0 0 0 -2px;
-            background-color: black;
-            width: 90%;
-        } */
-        .logo_information{
-            margin: 100px;
-            width: 86vw;
-            height: 500px;
-        }
-        .logo_images img{
-            width: 55%;
-        }
-        .logo_images div{
-            margin-bottom: 80px;
-        }
-    </style>
+    <link href="../main.css" rel="stylesheet">
 </head>
 <body>
     <ul class="header">
-        <a class="logo" href="index.html">LOGO GOES HERE</a>
+        <a class="logo" href="index.html"></a>
         <a class="hover" href="index.html">Home</a>
         <a class="hover" href="logo.html">Logo</a>
-        <a class="hover" href="colour.html">Colour</a>
+        <a class="hover" href="colours.html">Colour</a>
         <a class="hover" href="typo.html">Typography</a>
         <a class="hover" href="ref.html">Reference</a>
     </ul>
-    <div>LOGO</div>
-    <div class="welcomeblob">
-        <!-- <img class="blob" src="blob.png"> -->
-        <div class="welcome">Welcome to FridgyGo</div>
-    </div>
     <div class="logo_information">
         <h2>FridgyGo's Logo</h2>
         <p>
@@ -146,6 +71,12 @@
                 <img src="../imgs/vertical_logo.png" style="width: 15%;">
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <hr class="line">
+        <h1 class="brand_name"> FRIDGYGO</h1>
+        <h1 class="copy_right">©2022</h1>
+        <h3 class="team1">Team #1: Ana Arango, Renata Dzotova, and Elizabeth Melgarejo-Lazarte </h3>
     </div>
 </body>
 </html>

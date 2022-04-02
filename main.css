@@ -298,7 +298,33 @@ img.typo{
             background-color: rgb(204, 136, 81);
             font-family: 'Staatliches', cursive;
         }
-        .logo_inspirations{
+       .logo_inspirations{
             padding: 10% 5%;
             height: fit-content
+        }
+
+        /* .icon_reference, .icon_reference{
+            height: fit-content */
+        }
+        .ref, .icon_reference, .icon_reference {
+             padding-left: 50px; 
+            padding: 10% 5%;
+            height: fit-content
+        } 
+        /* .logo_inspirations{
+            padding: 10% 5%;
+            height: fit-content
+        } */
+        .imagery_section img{
+            width: 50%;
+        }
+        .bird_section img{
+            width:10%;
+        }
+        .imagery_section{
+         padding: 10% 5%;
+            width: 86vw; 
+            margin:none;
+            padding-left: 50px;
+            height: fit-content;
         }
